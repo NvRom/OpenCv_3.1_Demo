@@ -1,0 +1,182 @@
+﻿生成启动时间为 2016/4/17 13:01:43。
+     1>项目“C:\Users\NvRom\Documents\Visual Studio 2012\Projects\OpenCv_3.1_Demo\pca\pca.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt pca.cpp
+         pca.cpp
+     1>c:\opencv\build\include\opencv2\core\mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\NvRom\Documents\Visual Studio 2012\Projects\OpenCv_3.1_Demo\Debug\pca.exe" /INCREMENTAL /NOLOGO opencv_ts300d.lib opencv_world300d.lib IlmImfd.lib libjasperd.lib libjpegd.lib libpngd.lib libtiffd.lib libwebpd.lib opencv_calib3d300d.lib opencv_core300d.lib opencv_features2d300d.lib opencv_flann300d.lib opencv_highgui300d.lib opencv_imgcodecs300d.lib opencv_imgproc300d.lib opencv_ml300d.lib opencv_objdetect300d.lib opencv_photo300d.lib opencv_shape300d.lib opencv_stitching300d.lib opencv_superres300d.lib opencv_video300d.lib opencv_videoio300d.lib opencv_videostab300d.lib zlibd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\NvRom\Documents\Visual Studio 2012\Projects\OpenCv_3.1_Demo\Debug\pca.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\NvRom\Documents\Visual Studio 2012\Projects\OpenCv_3.1_Demo\Debug\pca.lib" /MACHINE:X86 Debug\pca.obj
+     1>IlmImfd.lib(ImfTiledRgbaFile.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(IexBaseExc.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(ImfHeader.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(ImfFrameBuffer.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(half.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(ImfTiledOutputFile.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(ImfTiledInputFile.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(ImfChannelList.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(ImfIO.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(ImfChromaticities.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(ImfStandardAttributes.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(ImfRgbaYca.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(IlmThreadMutexWin32.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(ImfStdIO.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(ImfCompressor.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(ImfAttribute.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(ImfBoxAttribute.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(ImfChannelListAttribute.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(ImfChromaticitiesAttribute.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(ImfCompressionAttribute.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(ImfDoubleAttribute.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(ImfEnvmapAttribute.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(ImfFloatAttribute.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(ImfIntAttribute.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(ImfKeyCode.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(ImfKeyCodeAttribute.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(ImfLineOrderAttribute.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(ImfMatrixAttribute.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(ImfOpaqueAttribute.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(ImfPreviewImage.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(ImfPreviewImageAttribute.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(ImfRationalAttribute.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(ImfStringAttribute.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(ImfStringVectorAttribute.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(ImfTileDescriptionAttribute.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(ImfTimeCode.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(ImfTimeCodeAttribute.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(ImfVecAttribute.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(ImfInputFile.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(ImfMisc.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(ImfTiledMisc.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(ImfTileOffsets.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(IlmThreadPool.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(IlmThreadSemaphoreWin32.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(IexThrowErrnoExc.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(ImfRleCompressor.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(ImfZipCompressor.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(ImfPizCompressor.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(ImfPxr24Compressor.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(ImfB44Compressor.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(ImfScanLineInputFile.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(ImfConvert.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(IlmThreadWin32.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>IlmImfd.lib(ImfHuf.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "public: __thiscall std::_Container_base12::_Container_base12(void)" (??0_Container_base12@std@@QAE@XZ) 已经在 IlmImfd.lib(ImfTiledRgbaFile.obj) 中定义
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "public: __thiscall std::_Container_base12::~_Container_base12(void)" (??1_Container_base12@std@@QAE@XZ) 已经在 IlmImfd.lib(ImfTiledRgbaFile.obj) 中定义
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "public: struct std::_Iterator_base12 * * __thiscall std::_Container_base12::_Getpfirst(void)const " (?_Getpfirst@_Container_base12@std@@QBEPAPAU_Iterator_base12@2@XZ) 已经在 IlmImfd.lib(ImfTiledRgbaFile.obj) 中定义
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "public: void __thiscall std::_Container_base12::_Orphan_all(void)" (?_Orphan_all@_Container_base12@std@@QAEXXZ) 已经在 IlmImfd.lib(ImfTiledRgbaFile.obj) 中定义
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "public: __thiscall std::locale::id::id(unsigned int)" (??0id@locale@std@@QAE@I@Z) 已经在 IlmImfd.lib(ImfTiledRgbaFile.obj) 中定义
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "public: __thiscall std::locale::id::operator unsigned int(void)" (??Bid@locale@std@@QAEIXZ) 已经在 IlmImfd.lib(ImfTiledRgbaFile.obj) 中定义
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "public: bool __thiscall std::codecvt_base::always_noconv(void)const " (?always_noconv@codecvt_base@std@@QBE_NXZ) 已经在 IlmImfd.lib(ImfStdIO.obj) 中定义
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "public: int __thiscall std::codecvt<char,char,int>::in(int &,char const *,char const *,char const * &,char *,char *,char * &)const " (?in@?$codecvt@DDH@std@@QBEHAAHPBD1AAPBDPAD3AAPAD@Z) 已经在 IlmImfd.lib(ImfStdIO.obj) 中定义
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "public: int __thiscall std::codecvt<char,char,int>::out(int &,char const *,char const *,char const * &,char *,char *,char * &)const " (?out@?$codecvt@DDH@std@@QBEHAAHPBD1AAPBDPAD3AAPAD@Z) 已经在 IlmImfd.lib(ImfStdIO.obj) 中定义
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "public: int __thiscall std::codecvt<char,char,int>::unshift(int &,char *,char *,char * &)const " (?unshift@?$codecvt@DDH@std@@QBEHAAHPAD1AAPAD@Z) 已经在 IlmImfd.lib(ImfStdIO.obj) 中定义
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "public: static unsigned int __cdecl std::codecvt<char,char,int>::_Getcat(class std::locale::facet const * *,class std::locale const *)" (?_Getcat@?$codecvt@DDH@std@@SAIPAPBVfacet@locale@2@PBV42@@Z) 已经在 IlmImfd.lib(ImfStdIO.obj) 中定义
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "public: bool __thiscall std::ios_base::operator!(void)const " (??7ios_base@std@@QBE_NXZ) 已经在 IlmImfd.lib(ImfStdIO.obj) 中定义
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "public: bool __thiscall std::ios_base::good(void)const " (?good@ios_base@std@@QBE_NXZ) 已经在 IlmImfd.lib(ImfTiledRgbaFile.obj) 中定义
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "public: int __thiscall std::ios_base::flags(void)const " (?flags@ios_base@std@@QBEHXZ) 已经在 IlmImfd.lib(ImfTiledRgbaFile.obj) 中定义
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "public: __int64 __thiscall std::ios_base::width(void)const " (?width@ios_base@std@@QBE_JXZ) 已经在 IlmImfd.lib(ImfTiledRgbaFile.obj) 中定义
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "public: __int64 __thiscall std::ios_base::width(__int64)" (?width@ios_base@std@@QAE_J_J@Z) 已经在 IlmImfd.lib(ImfTiledRgbaFile.obj) 中定义
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "protected: __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::basic_streambuf<char,struct std::char_traits<char> >(void)" (??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAE@XZ) 已经在 IlmImfd.lib(ImfTiledRgbaFile.obj) 中定义
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "public: virtual __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::~basic_streambuf<char,struct std::char_traits<char> >(void)" (??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAE@XZ) 已经在 IlmImfd.lib(ImfTiledRgbaFile.obj) 中定义
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "public: class std::locale __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::getloc(void)const " (?getloc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QBE?AVlocale@2@XZ) 已经在 IlmImfd.lib(ImfStdIO.obj) 中定义
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "public: int __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::sbumpc(void)" (?sbumpc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHXZ) 已经在 IlmImfd.lib(half.obj) 中定义
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "public: int __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::sgetc(void)" (?sgetc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHXZ) 已经在 IlmImfd.lib(half.obj) 中定义
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "public: int __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::snextc(void)" (?snextc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHXZ) 已经在 IlmImfd.lib(half.obj) 中定义
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "public: int __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::sputc(char)" (?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHD@Z) 已经在 IlmImfd.lib(ImfTiledRgbaFile.obj) 中定义
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "public: __int64 __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::sputn(char const *,__int64)" (?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAE_JPBD_J@Z) 已经在 IlmImfd.lib(ImfTiledRgbaFile.obj) 中定义
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "protected: char * __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::eback(void)const " (?eback@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ) 已经在 IlmImfd.lib(ImfTiledRgbaFile.obj) 中定义
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "protected: char * __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::gptr(void)const " (?gptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ) 已经在 IlmImfd.lib(ImfTiledRgbaFile.obj) 中定义
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "protected: char * __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::pptr(void)const " (?pptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ) 已经在 IlmImfd.lib(ImfTiledRgbaFile.obj) 中定义
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "protected: char * __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::egptr(void)const " (?egptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ) 已经在 IlmImfd.lib(ImfTiledRgbaFile.obj) 中定义
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "protected: void __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::setg(char *,char *,char *)" (?setg@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXPAD00@Z) 已经在 IlmImfd.lib(ImfTiledRgbaFile.obj) 中定义
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "protected: char * __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::epptr(void)const " (?epptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ) 已经在 IlmImfd.lib(ImfTiledRgbaFile.obj) 中定义
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "protected: char * __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::_Gndec(void)" (?_Gndec@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEPADXZ) 已经在 IlmImfd.lib(ImfStdIO.obj) 中定义
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "protected: char * __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::_Gninc(void)" (?_Gninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEPADXZ) 已经在 IlmImfd.lib(ImfTiledRgbaFile.obj) 中定义
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "protected: char * __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::_Pninc(void)" (?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEPADXZ) 已经在 IlmImfd.lib(ImfTiledRgbaFile.obj) 中定义
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "protected: void __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::_Init(void)" (?_Init@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXXZ) 已经在 IlmImfd.lib(ImfTiledRgbaFile.obj) 中定义
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "protected: void __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::_Init(char * *,char * *,int *,char * *,char * *,int *)" (?_Init@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXPAPAD0PAH001@Z) 已经在 IlmImfd.lib(ImfStdIO.obj) 中定义
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "public: virtual __thiscall std::basic_ios<char,struct std::char_traits<char> >::~basic_ios<char,struct std::char_traits<char> >(void)" (??1?$basic_ios@DU?$char_traits@D@std@@@std@@UAE@XZ) 已经在 IlmImfd.lib(ImfTiledRgbaFile.obj) 中定义
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "public: void __thiscall std::basic_ios<char,struct std::char_traits<char> >::setstate(int,bool)" (?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QAEXH_N@Z) 已经在 IlmImfd.lib(ImfTiledRgbaFile.obj) 中定义
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "public: class std::basic_ostream<char,struct std::char_traits<char> > * __thiscall std::basic_ios<char,struct std::char_traits<char> >::tie(void)const " (?tie@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEPAV?$basic_ostream@DU?$char_traits@D@std@@@2@XZ) 已经在 IlmImfd.lib(ImfTiledRgbaFile.obj) 中定义
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "public: class std::basic_streambuf<char,struct std::char_traits<char> > * __thiscall std::basic_ios<char,struct std::char_traits<char> >::rdbuf(void)const " (?rdbuf@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEPAV?$basic_streambuf@DU?$char_traits@D@std@@@2@XZ) 已经在 IlmImfd.lib(ImfTiledRgbaFile.obj) 中定义
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "public: char __thiscall std::basic_ios<char,struct std::char_traits<char> >::fill(void)const " (?fill@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEDXZ) 已经在 IlmImfd.lib(ImfTiledRgbaFile.obj) 中定义
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "public: char __thiscall std::basic_ios<char,struct std::char_traits<char> >::widen(char)const " (?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEDD@Z) 已经在 IlmImfd.lib(ImfTiledRgbaFile.obj) 中定义
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "protected: __thiscall std::basic_ios<char,struct std::char_traits<char> >::basic_ios<char,struct std::char_traits<char> >(void)" (??0?$basic_ios@DU?$char_traits@D@std@@@std@@IAE@XZ) 已经在 IlmImfd.lib(ImfTiledRgbaFile.obj) 中定义
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "public: void __thiscall std::basic_ostream<char,struct std::char_traits<char> >::_Osfx(void)" (?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEXXZ) 已经在 IlmImfd.lib(ImfTiledRgbaFile.obj) 中定义
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "public: class std::basic_ostream<char,struct std::char_traits<char> > & __thiscall std::basic_ostream<char,struct std::char_traits<char> >::operator<<(int)" (??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@H@Z) 已经在 IlmImfd.lib(ImfHeader.obj) 中定义
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "public: class std::basic_ostream<char,struct std::char_traits<char> > & __thiscall std::basic_ostream<char,struct std::char_traits<char> >::flush(void)" (?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@XZ) 已经在 IlmImfd.lib(ImfTiledRgbaFile.obj) 中定义
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "public: __thiscall std::basic_istream<char,struct std::char_traits<char> >::basic_istream<char,struct std::char_traits<char> >(class std::basic_streambuf<char,struct std::char_traits<char> > *,bool)" (??0?$basic_istream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z) 已经在 IlmImfd.lib(ImfTiledRgbaFile.obj) 中定义
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "public: virtual __thiscall std::basic_istream<char,struct std::char_traits<char> >::~basic_istream<char,struct std::char_traits<char> >(void)" (??1?$basic_istream@DU?$char_traits@D@std@@@std@@UAE@XZ) 已经在 IlmImfd.lib(ImfTiledRgbaFile.obj) 中定义
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "public: virtual void __thiscall std::basic_istream<char,struct std::char_traits<char> >::_Add_vtordisp1(void)" (?_Add_vtordisp1@?$basic_istream@DU?$char_traits@D@std@@@std@@UAEXXZ) 已经在 IlmImfd.lib(ImfTiledRgbaFile.obj) 中定义
+     1>msvcprtd.lib(MSVCP110D.dll) : error LNK2005: "public: bool __thiscall std::basic_istream<char,struct std::char_traits<char> >::_Ipfx(bool)" (?_Ipfx@?$basic_istream@DU?$char_traits@D@std@@@std@@QAE_N_N@Z) 已经在 IlmImfd.lib(half.obj) 中定义
+     1>libcpmtd.lib(ios.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>libcpmtd.lib(ios.obj) : error LNK2005: "public: static void __cdecl std::ios_base::_Addstd(class std::ios_base *)" (?_Addstd@ios_base@std@@SAXPAV12@@Z) 已经在 msvcprtd.lib(MSVCP110D.dll) 中定义
+     1>libcpmtd.lib(ios.obj) : error LNK2005: "private: static void __cdecl std::ios_base::_Ios_base_dtor(class std::ios_base *)" (?_Ios_base_dtor@ios_base@std@@CAXPAV12@@Z) 已经在 msvcprtd.lib(MSVCP110D.dll) 中定义
+     1>libcpmtd.lib(locale0.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>libcpmtd.lib(locale0.obj) : error LNK2005: "void __cdecl std::_Facet_Register(class std::_Facet_base *)" (?_Facet_Register@std@@YAXPAV_Facet_base@1@@Z) 已经在 msvcprtd.lib(locale0_implib.obj) 中定义
+     1>libcpmtd.lib(locale0.obj) : error LNK2005: "private: static class std::locale::_Locimp * __cdecl std::locale::_Getgloballocale(void)" (?_Getgloballocale@locale@std@@CAPAV_Locimp@12@XZ) 已经在 msvcprtd.lib(MSVCP110D.dll) 中定义
+     1>libcpmtd.lib(locale0.obj) : error LNK2005: "private: static class std::locale::_Locimp * __cdecl std::locale::_Init(bool)" (?_Init@locale@std@@CAPAV_Locimp@12@_N@Z) 已经在 msvcprtd.lib(MSVCP110D.dll) 中定义
+     1>libcpmtd.lib(locale0.obj) : error LNK2005: "public: static void __cdecl std::_Locinfo::_Locinfo_ctor(class std::_Locinfo *,char const *)" (?_Locinfo_ctor@_Locinfo@std@@SAXPAV12@PBD@Z) 已经在 msvcprtd.lib(MSVCP110D.dll) 中定义
+     1>libcpmtd.lib(locale0.obj) : error LNK2005: "public: static void __cdecl std::_Locinfo::_Locinfo_dtor(class std::_Locinfo *)" (?_Locinfo_dtor@_Locinfo@std@@SAXPAV12@@Z) 已经在 msvcprtd.lib(MSVCP110D.dll) 中定义
+     1>libcpmtd.lib(iosptrs.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>libcpmtd.lib(locale.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>libcpmtd.lib(xlock.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>libcpmtd.lib(xlock.obj) : error LNK2005: "public: __thiscall std::_Lockit::_Lockit(int)" (??0_Lockit@std@@QAE@H@Z) 已经在 msvcprtd.lib(MSVCP110D.dll) 中定义
+     1>libcpmtd.lib(xlock.obj) : error LNK2005: "public: __thiscall std::_Lockit::~_Lockit(void)" (??1_Lockit@std@@QAE@XZ) 已经在 msvcprtd.lib(MSVCP110D.dll) 中定义
+     1>libcpmtd.lib(xthrow.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>libcpmtd.lib(xthrow.obj) : error LNK2005: "void __cdecl std::_Xbad_alloc(void)" (?_Xbad_alloc@std@@YAXXZ) 已经在 msvcprtd.lib(MSVCP110D.dll) 中定义
+     1>libcpmtd.lib(xthrow.obj) : error LNK2005: "void __cdecl std::_Xlength_error(char const *)" (?_Xlength_error@std@@YAXPBD@Z) 已经在 msvcprtd.lib(MSVCP110D.dll) 中定义
+     1>libcpmtd.lib(xthrow.obj) : error LNK2005: "void __cdecl std::_Xout_of_range(char const *)" (?_Xout_of_range@std@@YAXPBD@Z) 已经在 msvcprtd.lib(MSVCP110D.dll) 中定义
+     1>libcpmtd.lib(wlocale.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>libcpmtd.lib(xlocale.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>libcpmtd.lib(xdateord.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(pca.obj 中)
+     1>libcpmtd.lib(xwctomb.obj) : error LNK2005: __Getcvt 已经在 msvcprtd.lib(MSVCP110D.dll) 中定义
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __CrtSetCheckCount 已经在 MSVCRTD.lib(MSVCR110D.dll) 中定义
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __calloc_dbg 已经在 MSVCRTD.lib(MSVCR110D.dll) 中定义
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __free_dbg 已经在 MSVCRTD.lib(MSVCR110D.dll) 中定义
+     1>LIBCMTD.lib(stdexcpt.obj) : error LNK2005: "public: __thiscall std::bad_cast::bad_cast(class std::bad_cast const &)" (??0bad_cast@std@@QAE@ABV01@@Z) 已经在 MSVCRTD.lib(MSVCR110D.dll) 中定义
+     1>LIBCMTD.lib(stdexcpt.obj) : error LNK2005: "public: __thiscall std::bad_cast::bad_cast(char const *)" (??0bad_cast@std@@QAE@PBD@Z) 已经在 MSVCRTD.lib(MSVCR110D.dll) 中定义
+     1>LIBCMTD.lib(stdexcpt.obj) : error LNK2005: "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z) 已经在 MSVCRTD.lib(MSVCR110D.dll) 中定义
+     1>LIBCMTD.lib(stdexcpt.obj) : error LNK2005: "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z) 已经在 MSVCRTD.lib(MSVCR110D.dll) 中定义
+     1>LIBCMTD.lib(stdexcpt.obj) : error LNK2005: "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ) 已经在 MSVCRTD.lib(MSVCR110D.dll) 中定义
+     1>LIBCMTD.lib(stdexcpt.obj) : error LNK2005: "public: virtual __thiscall std::bad_cast::~bad_cast(void)" (??1bad_cast@std@@UAE@XZ) 已经在 MSVCRTD.lib(MSVCR110D.dll) 中定义
+     1>LIBCMTD.lib(stdexcpt.obj) : error LNK2005: "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ) 已经在 MSVCRTD.lib(MSVCR110D.dll) 中定义
+     1>LIBCMTD.lib(stdexcpt.obj) : error LNK2005: "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ) 已经在 MSVCRTD.lib(MSVCR110D.dll) 中定义
+     1>LIBCMTD.lib(dbghook.obj) : error LNK2005: __crt_debugger_hook 已经在 MSVCRTD.lib(MSVCR110D.dll) 中定义
+     1>LIBCMTD.lib(wsetloca.obj) : error LNK2005: __configthreadlocale 已经在 MSVCRTD.lib(MSVCR110D.dll) 中定义
+     1>LIBCMTD.lib(invarg.obj) : error LNK2005: __invalid_parameter 已经在 MSVCRTD.lib(MSVCR110D.dll) 中定义
+     1>LIBCMTD.lib(invarg.obj) : error LNK2005: __invoke_watson 已经在 MSVCRTD.lib(MSVCR110D.dll) 中定义
+     1>LIBCMTD.lib(dosmap.obj) : error LNK2005: __errno 已经在 MSVCRTD.lib(MSVCR110D.dll) 中定义
+     1>LIBCMTD.lib(lconv.obj) : error LNK2005: _localeconv 已经在 MSVCRTD.lib(MSVCR110D.dll) 中定义
+     1>LIBCMTD.lib(crt0dat.obj) : error LNK2005: __amsg_exit 已经在 MSVCRTD.lib(MSVCR110D.dll) 中定义
+     1>LIBCMTD.lib(crt0dat.obj) : error LNK2005: __cexit 已经在 MSVCRTD.lib(MSVCR110D.dll) 中定义
+     1>LIBCMTD.lib(crt0dat.obj) : error LNK2005: __exit 已经在 MSVCRTD.lib(MSVCR110D.dll) 中定义
+     1>LIBCMTD.lib(crt0dat.obj) : error LNK2005: __initterm_e 已经在 MSVCRTD.lib(MSVCR110D.dll) 中定义
+     1>LIBCMTD.lib(crt0dat.obj) : error LNK2005: _exit 已经在 MSVCRTD.lib(MSVCR110D.dll) 中定义
+     1>LIBCMTD.lib(mlock.obj) : error LNK2005: __lock 已经在 MSVCRTD.lib(MSVCR110D.dll) 中定义
+     1>LIBCMTD.lib(mlock.obj) : error LNK2005: __unlock 已经在 MSVCRTD.lib(MSVCR110D.dll) 中定义
+     1>LIBCMTD.lib(winapisupp.obj) : error LNK2005: ___crtSetUnhandledExceptionFilter 已经在 MSVCRTD.lib(MSVCR110D.dll) 中定义
+     1>LIBCMTD.lib(winapisupp.obj) : error LNK2005: ___crtTerminateProcess 已经在 MSVCRTD.lib(MSVCR110D.dll) 中定义
+     1>LIBCMTD.lib(winapisupp.obj) : error LNK2005: ___crtUnhandledException 已经在 MSVCRTD.lib(MSVCR110D.dll) 中定义
+     1>LIBCMTD.lib(winxfltr.obj) : error LNK2005: __XcptFilter 已经在 MSVCRTD.lib(MSVCR110D.dll) 中定义
+     1>LIBCMTD.lib(errmode.obj) : error LNK2005: ___set_app_type 已经在 MSVCRTD.lib(MSVCR110D.dll) 中定义
+     1>LIBCMTD.lib(hooks.obj) : error LNK2005: "void __cdecl terminate(void)" (?terminate@@YAXXZ) 已经在 MSVCRTD.lib(MSVCR110D.dll) 中定义
+     1>LIBCMTD.lib(crt0init.obj) : error LNK2005: ___xi_a 已经在 MSVCRTD.lib(cinitexe.obj) 中定义
+     1>LIBCMTD.lib(crt0init.obj) : error LNK2005: ___xi_z 已经在 MSVCRTD.lib(cinitexe.obj) 中定义
+     1>LIBCMTD.lib(crt0init.obj) : error LNK2005: ___xc_a 已经在 MSVCRTD.lib(cinitexe.obj) 中定义
+     1>LIBCMTD.lib(crt0init.obj) : error LNK2005: ___xc_z 已经在 MSVCRTD.lib(cinitexe.obj) 中定义
+     1>LIBCMTD.lib(sprintf.obj) : error LNK2005: _sprintf_s 已经在 MSVCRTD.lib(MSVCR110D.dll) 中定义
+     1>LIBCMTD.lib(dbgrptw.obj) : error LNK2005: __CrtDbgReportW 已经在 MSVCRTD.lib(MSVCR110D.dll) 中定义
+     1>LIBCMTD.lib(_file.obj) : error LNK2005: __lock_file 已经在 MSVCRTD.lib(MSVCR110D.dll) 中定义
+     1>LIBCMTD.lib(_file.obj) : error LNK2005: __unlock_file 已经在 MSVCRTD.lib(MSVCR110D.dll) 中定义
+     1>LIBCMTD.lib(fflush.obj) : error LNK2005: _fflush 已经在 MSVCRTD.lib(MSVCR110D.dll) 中定义
+     1>LINK : warning LNK4098: 默认库“MSVCRTD”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>LINK : warning LNK4098: 默认库“LIBCMTD”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>C:\Users\NvRom\Documents\Visual Studio 2012\Projects\OpenCv_3.1_Demo\Debug\pca.exe : fatal error LNK1169: 找到一个或多个多重定义的符号
+     1>已完成生成项目“C:\Users\NvRom\Documents\Visual Studio 2012\Projects\OpenCv_3.1_Demo\pca\pca.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:05.08
